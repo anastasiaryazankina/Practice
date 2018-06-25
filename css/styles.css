@@ -1,39 +1,27 @@
 
-
-
-
-
-tr, td, th{
-  border: 3px solid black;
-  padding: 30px;
+tr, td, th {
+   border: 3px solid black;
+   padding: 30px;
 }
 
-
-#blocks{
- /* background-color: #fbf4ba;*/
-  margin-top: 60px;
-  margin-left: 100px;
-  margin-bottom: 30px;
-  float:left;
+.blocks {
+   margin: 60px 0 30px 100px;
+   float:left;
 }
 
-#submit_btn{
-  margin-top: 60px;
-  display: block;
-  float: right;
-  margin-right: 700px;
+.submit_btn {
+   margin: 60px 700px 0 0;
+   display: block;
+   float: right;
 }
 
-#blocks td{
-  background-color: #0f0000;
+.blocks  td{
+   background-color: #0f0000;
 }
 
-.clear:after{
-  content: "$nbsp";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+.clear:after {
+   content: '$nbsp';
+   display: block;
+   visibility: hidden;
 }
 
